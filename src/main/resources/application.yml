@@ -15,7 +15,7 @@ spring:
     # 数据库的用户名
     username: root
     # 密码
-    password: a676221979
+    password: xx
   # 文件上传的配置
   servlet:
     multipart:
@@ -23,11 +23,11 @@ spring:
       max-request-size: 100MB
   # 腾讯云配置
   tengxun:
-    SecretId: AKIDFLH0V1JOFuLZbQ3EG4h6IHE6kANZaOHy
-    SecretKey: g9RBoGVYP3VlntqbBYlxxlOp593mKgtx
-    region: ap-guangzhou
-    url: https://hedy-1321816972.cos.ap-guangzhou.myqcloud.com
-    bucketName: hedy-1321816972
+    SecretId: xx
+    SecretKey: xx
+    region: xx
+    url: xx
+    bucketName: xx
 
 # mybatis配置
 mybatis:
