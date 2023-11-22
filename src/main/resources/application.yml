@@ -1,0 +1,37 @@
+spring:
+  messages:
+    encoding: UTF-8
+
+  config:
+    name: application
+    location: src/main/resources/application.yml
+
+  # 数据库连接信息
+  datasource:
+    # 驱动类名称
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 数据库链接的URL
+    url: jdbc:mysql://localhost:3306/mybatis
+    # 数据库的用户名
+    username: root
+    # 密码
+    password: a676221979
+  # 文件上传的配置
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+  # 腾讯云配置
+  tengxun:
+    SecretId: AKIDFLH0V1JOFuLZbQ3EG4h6IHE6kANZaOHy
+    SecretKey: g9RBoGVYP3VlntqbBYlxxlOp593mKgtx
+    region: ap-guangzhou
+    url: https://hedy-1321816972.cos.ap-guangzhou.myqcloud.com
+    bucketName: hedy-1321816972
+
+# mybatis配置
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+
